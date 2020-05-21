@@ -1,0 +1,53 @@
+.left-panel {
+    width: 19%;
+    min-width: 265px;
+    background-color: #0099CC;
+    min-height: 95vh;
+}
+
+.profile-picture {
+    border: 0 solid black;
+    border-radius: 47%;
+    height: 250px;
+}
+
+.name {
+    font-family: 'Segoe UI Semibold';
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.bio {
+    font-family: 'Segoe UI';
+    text-align: justify;
+    text-indent: 20px;
+    line-height: normal;
+    padding: 10px 0 10px 0;
+}
+
+.download-button {
+    border: 2px solid #CCCCCC;
+    border-radius: 15px;
+    background-color: #0099CC;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 1px rgb(3, 121, 160);
+}
+
+.download-icon {
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+    filter: invert(100%);
+}
+
+.download-button:hover {
+    transform: scale(1.04);
+    transition: 0.1s;
+}
+
+.download-button:active {
+    transform: scale(1.02);
+}

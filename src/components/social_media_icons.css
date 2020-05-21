@@ -1,0 +1,31 @@
+.icon-wrap {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.facebook-icon {
+    width: 50px;
+    margin: 0 -2px 1px 5px;
+}
+
+.github-icon {
+    width: 50px;
+}
+
+.linkedin-icon {
+    width: 45px;
+    margin: 5px 7px 2px 2px;
+}
+
+.instagram-icon {
+    width: 40px;
+    margin: 5px 5px 5px 7px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon:active {
+    transform: scale(1.1);
+}
