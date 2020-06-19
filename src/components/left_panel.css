@@ -51,3 +51,7 @@
 .download-button:active {
     transform: scale(1.02);
 }
+
+.download-button:focus {
+    outline: 0;
+}
