@@ -3,6 +3,7 @@
     min-width: 265px;
     background-color: #0099CC;
     min-height: 95vh;
+    display: inline-block;
 }
 
 .profile-picture {

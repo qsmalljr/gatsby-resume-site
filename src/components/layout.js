@@ -13,22 +13,22 @@ import Header from "./header";
 import "./layout.css";
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-        query resumeQuery {
-          sheet: allGoogleSheetSheet1Row {
-            edges {
-              node {
-                position
-                company
-                location
-                start
-                end
-                description
-              }
-            }
-          }
-        }
-  `)
+  // const data = useStaticQuery(graphql`
+  //       query resumeQuery {
+  //         sheet: allGoogleSheetSheet1Row {
+  //           edges {
+  //             node {
+  //               position
+  //               company
+  //               location
+  //               start
+  //               end
+  //               description
+  //             }
+  //           }
+  //         }
+  //       }
+  // `)
 
   return (
     <>

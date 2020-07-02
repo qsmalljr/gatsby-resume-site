@@ -23,7 +23,7 @@ const LeftPanel = () => {
       );
 
     return (
-    <div className="left-panel">
+    <span className="left-panel">
         <CenterWrapper>
             <img src={profilePicture} alt="Profile Picture" className="profile-picture" />
             <p className="name" >Quentin R. Small Jr.</p>
@@ -36,7 +36,7 @@ const LeftPanel = () => {
             <p/>
             <SocialMediaIcons />
         </CenterWrapper>
-    </div>
+    </span>
     );
 };
 
