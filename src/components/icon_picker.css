@@ -1,0 +1,13 @@
+.icon-picker > img {
+    width: 120px;
+}
+
+.icon-picker > div {
+    width: 120px;
+}
+
+.icon-picker {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}

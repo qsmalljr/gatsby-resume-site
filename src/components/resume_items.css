@@ -1,5 +1,6 @@
 .resume-items {
     background-color: white;
-    margin: 0 auto;
-    width: 100%;
+    margin: 25px 0 0 25px;
+    min-width: 600px;
+    max-width: 900px;
 }

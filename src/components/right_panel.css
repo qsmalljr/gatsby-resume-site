@@ -1,8 +1,4 @@
 .right-panel {
     display: inline-block;
     vertical-align: top;
-    width: 75%;
-    min-width: 600px;
-    max-width: 900px;
-    margin: 0 auto;
 }
